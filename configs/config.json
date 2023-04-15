@@ -1,0 +1,6 @@
+{
+    "output": "generated/test.",
+    "chain": "mainnet",
+    "datasources": [{ "address": "0x8d3a5b1CF409c63489492076dFb63AC8BDc7DE8E", "startBlock": 
+    387688, "module": ["erc1155", "ownable", "accesscontrol"] }]
+  }
