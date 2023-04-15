@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Marvin Splitt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/subgraphs": "^0.1.8-5"
+  }
 }
