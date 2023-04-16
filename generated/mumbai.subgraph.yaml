@@ -1,6 +1,6 @@
 specVersion: 0.0.4
 schema:
-  file: test.schema.graphql
+  file: mumbai.schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: erc1155
@@ -8,7 +8,7 @@ dataSources:
     source:
       address: "0xf0a48f01b877b64b38f71d7ee31e73d554e5d7c0"
       abi: IERC1155
-      startBlock: 3301177
+      startBlock: 34444699
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -34,7 +34,7 @@ dataSources:
     source:
       address: "0xf0a48f01b877b64b38f71d7ee31e73d554e5d7c0"
       abi: Ownable
-      startBlock: 3301177
+      startBlock: 34444699
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -54,7 +54,7 @@ dataSources:
     source:
       address: "0xf0a48f01b877b64b38f71d7ee31e73d554e5d7c0"
       abi: AccessControl
-      startBlock: 3301177
+      startBlock: 34444699
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
