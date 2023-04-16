@@ -1,13 +1,12 @@
 {
-  "output": "generated/sepolia.",
+  "output": "generated/shimmer.",
   "chain": "mainnet",
   "datasources": [
     {
       "address": "0xf0a48f01b877b64b38f71d7ee31e73d554e5d7c0",
-      "startBlock": 3301177,
+      "startBlock": 384688,
       "module": [
-        "erc1155",
-        "ownable",
+        "erc20",
         "accesscontrol"
       ]
     }
